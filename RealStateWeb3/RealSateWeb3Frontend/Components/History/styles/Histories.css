@@ -1,0 +1,54 @@
+.first {
+  width: 25%;
+}
+
+.second {
+  width: 25%;
+}
+.fourth {
+  width: 25%;
+}
+.third {
+  width: 25%;
+}
+
+.key_Container {
+  display: flex;
+  flex-direction: row;
+  font-size: max(1.7vw, 0.7em);
+
+  font-weight: 600;
+  justify-content: space-between;
+}
+
+.historyContainerIndv {
+  min-height: 200px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px 20px;
+  border-radius: 10px;
+  gap: 10px;
+  position: relative;
+}
+.value_Indv_Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Error {
+  position: absolute;
+  font-size: max(1.5vw, 1.1rem);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.value_Container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  font-size: max(1.2vw, 0.7em);
+}

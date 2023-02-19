@@ -1,0 +1,24 @@
+.ManualTopic {
+  font-size: max(2.5vw, 1.2rem);
+  text-align: center;
+}
+
+.Manual_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.Manual_Container input {
+  width: 70%;
+  border-radius: 10px;
+  border: 1px solid grey;
+  outline: none;
+  padding-left: 10px;
+  height: 30px;
+}
+.Manual_Container form {
+  display: flex;
+  justify-content: center;
+}

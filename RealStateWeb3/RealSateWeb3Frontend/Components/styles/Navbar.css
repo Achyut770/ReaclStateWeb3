@@ -1,0 +1,104 @@
+.main_Nav {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: fixed;
+  top: 0px;
+  z-index: 9;
+  background-color: white;
+}
+.Nabvar_Container {
+  display: flex;
+  flex-direction: row;
+  width: min(100%, 1200px);
+  margin-inline: auto;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.bookMarksConnect {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.logo {
+  cursor: pointer;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.linkContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+
+  align-items: center;
+}
+
+.logo_Big {
+  font-size: 2.4rem;
+  color: var(--tomato);
+}
+.ham {
+  position: absolute;
+  display: none;
+  top: 25px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.navbar_Left {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  gap: max(20px, 10%);
+  align-items: center;
+}
+
+@media only screen and (max-width: 850px) {
+  .ham {
+    display: flex;
+  }
+  .linkContainer {
+    display: none;
+  }
+  .bookMarksConnect {
+    display: none;
+  }
+  .reslinkContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    z-index: 33;
+    gap: 20px;
+    left: 0px;
+    width: 100%;
+  }
+
+  .resbookMarksConnect {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding-block: 20px;
+    top: 230px;
+    gap: 20px;
+    left: 0px;
+  }
+}

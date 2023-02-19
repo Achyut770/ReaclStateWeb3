@@ -1,0 +1,34 @@
+.subscriptionCardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px 20px;
+  border: 1px solid grey;
+  max-width: 240px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s linear;
+}
+.subscriptionCardContainer:hover {
+  position: relative;
+  bottom: 10px;
+}
+
+.eth {
+  font-size: 1.2rem;
+}
+
+.Subcription_Card_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.big_Small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

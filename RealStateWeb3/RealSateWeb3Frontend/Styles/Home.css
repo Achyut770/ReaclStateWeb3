@@ -1,0 +1,61 @@
+
+.img{
+    background: url("https://media.istockphoto.com/id/171586769/photo/buffalo-new-york-usa.jpg?b=1&s=170667a&w=0&k=20&c=tVELkvH5k2ztEjhoFSSAs2eTmNJ3XABsQUzbFj2qm6g=") center  no-repeat; 
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    height: 100%;
+    width: 100%;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 450px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Form{
+background-color: white;
+width: min(1000px , 90%);
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 15px;
+padding: 0px;
+}
+
+.Saying{
+    text-align: center;
+}
+.sub_Sologan{
+    width: min(800px ,90%);
+    margin-inline: auto;
+    color:var(--home_Color);
+}
+
+.Sologan{
+    font-size: max(4vw , 2.5rem);
+    color:var(--home_Color);
+}
+
+
+.home_btn{
+border-radius: 0px 15px 15px 0px;
+    color: grey;
+    height: 100%;
+    background-color: rgb(209, 202, 202);
+    width: 80px;
+    margin-left: 8px;
+}
+
+.Home_Input{
+    height: 30px;
+    border: none;
+    outline:none;
+    width: 90%;
+}
+

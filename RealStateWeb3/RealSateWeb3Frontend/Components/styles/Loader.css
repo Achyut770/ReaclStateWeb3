@@ -1,0 +1,41 @@
+.Loader_Container {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  background-color: var(--popupBg_Color);
+}
+
+.please_Wait {
+  color: var(--tomato);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.Loader_Main_Container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(450px, 90%);
+  aspect-ratio: 2/1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  z-index: 11;
+}
+.Loader_Main_Container a {
+  font-size: 0.8rem;
+  color: black;
+}
+
+.popUp {
+  font-size: 1.1rem;
+}

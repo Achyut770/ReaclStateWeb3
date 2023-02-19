@@ -1,0 +1,20 @@
+.nft_Property_Popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 9;
+  background-color: var(--popupBg_Color);
+}
+
+.nft_Property_Popup_Details {
+  border-radius: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  max-height: 80vh;
+  overflow-y: auto;
+}

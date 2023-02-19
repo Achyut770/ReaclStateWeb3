@@ -1,0 +1,13 @@
+:root {
+  --tomato: tomato;
+  --input_bg: rgb(255, 177, 161);
+  --home_Color: rgb(241, 239, 239);
+  --icon_color: #968a8a;
+  --bg_color: rgb(246, 181, 170);
+  --popupBg_Color: rgb(255, 0, 0, 0.4);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}

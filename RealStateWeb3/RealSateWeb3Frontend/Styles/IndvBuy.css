@@ -1,0 +1,35 @@
+.IndvContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-inline: auto;
+}
+
+
+
+.left_Indv{
+    width:65%;
+}
+.right_Indv{
+    padding: 10px 10px;
+    position: sticky;
+    top: 70px;
+    width:35%;
+    height: 90vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .IndvContainer{
+        flex-direction: column;
+    }
+    .left_Indv{
+        width:100%;
+    }
+    .right_Indv{
+        display: none;
+    }
+  
+  }

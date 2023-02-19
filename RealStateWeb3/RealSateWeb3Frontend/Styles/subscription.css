@@ -1,0 +1,25 @@
+.subscription_Container {
+  width: min(1200px, 97%);
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: max(2vw, 20px);
+  padding-block: 20px;
+}
+
+.big {
+  font-size: max(3vw, 1.2rem);
+  text-align: center;
+  font-weight: 500;
+}
+
+.free {
+  color: var(--tomato);
+  cursor: pointer;
+}
+
+.small {
+  font-size: max(2vw, 1rem);
+}

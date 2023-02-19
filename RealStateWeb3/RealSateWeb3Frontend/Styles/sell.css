@@ -1,0 +1,118 @@
+.image_Input {
+  display: none;
+}
+
+.input_Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: max(7%, 10px);
+  box-sizing: border-box;
+  align-items: center;
+}
+.input_Container input {
+  height: 30px;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 450px;
+  padding-left: 10px;
+  padding-block: 5px;
+}
+
+label {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Style the radio button "circles" */
+input[type="radio"] {
+  display: none; /* Hide the radio buttons */
+}
+
+.Radio_Buttons {
+  width: 400px;
+}
+.Radio_Buttons_Container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="radio"] + label:before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  border: 2px solid #333;
+  border-radius: 50%;
+}
+.actual_RadioButoons {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+/* Style the selected radio button "circle" */
+input[type="radio"]:checked + label:before {
+  background: #333;
+}
+
+.form {
+  padding-block: 20px;
+  width: min(1000px, 97%);
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+textarea {
+  border: 1px solid grey;
+  border-radius: 10px;
+  max-width: 450px;
+  width: 450px;
+  padding-left: 10px;
+  height: 150px;
+  padding-block: 5px;
+  outline: none;
+}
+.sell_Topic {
+  font-size: max(3vw, 1.5rem);
+  text-align: center;
+  color: var(--tomato);
+  margin: 20px auto;
+  width: 360px;
+}
+.iconUpload {
+  padding: 7px 80px;
+  background-color: var(--bg_color);
+  border-radius: 10px;
+}
+
+.uploadImage {
+  width: 460px;
+}
+
+@media only screen and (max-width: 920px) {
+  .input_Container {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .input_Container input {
+    width: 340px;
+  }
+
+  textarea {
+    max-width: 340px;
+  }
+  .uploadImage {
+    width: 340px;
+  }
+}

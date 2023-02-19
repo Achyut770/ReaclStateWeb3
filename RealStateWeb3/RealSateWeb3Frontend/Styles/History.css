@@ -1,0 +1,44 @@
+.historyContainer {
+  padding-block: 40px;
+  width: min(1000px, 97%);
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.historyform {
+  width: 100%;
+  text-align: center;
+}
+.historyInput {
+  outline: none;
+  height: 35px;
+  width: min(400px, 90%);
+  border: 1px solid grey;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+
+.changeContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  cursor: pointer;
+  font-size: max(2.3vw, 0.9rem);
+}
+
+.HistoryContainerSBS {
+  width: 100%;
+}
+.border {
+  border-bottom: 3px solid var(--tomato);
+}
+
+.history_Topic {
+  font-size: max(3vw, 1.7rem);
+  text-align: center;
+  color: var(--tomato);
+}

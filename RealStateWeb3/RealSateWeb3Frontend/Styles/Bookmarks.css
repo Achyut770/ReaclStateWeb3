@@ -1,0 +1,9 @@
+.bookMarksTopic {
+  font-size: max(3vw, 2rem);
+  text-align: center;
+  padding: 30px 0px 15px 0px;
+}
+
+.bookmarksCardContainer {
+  min-height: 20vh;
+}

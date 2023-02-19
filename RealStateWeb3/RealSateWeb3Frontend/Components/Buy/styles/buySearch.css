@@ -1,0 +1,22 @@
+.buySearchContainer {
+  width: min(1000px, 90%);
+  margin: 20px auto;
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.buy_Input {
+  width: 91%;
+  border: none;
+  outline: none;
+}
+
+.home_btn {
+  border-radius: 0px 10px 10px 0px;
+}

@@ -1,0 +1,42 @@
+.card_Container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-content: center;
+cursor: pointer;
+}
+
+.Buy_House_Top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 10px;
+    box-sizing: border-box;
+}
+
+.buyWhole_Container{
+    width:min(1250px , 97%);
+    margin-inline: auto;
+    padding-block: 20px;
+}
+.Buy_House_Top_Left{
+    font-size: 1.7rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.border_Left{
+    height: 3px;
+    background-color:var(--tomato);
+    width: 50px;
+}
+
+.view_More{
+    cursor: pointer;
+}
+
