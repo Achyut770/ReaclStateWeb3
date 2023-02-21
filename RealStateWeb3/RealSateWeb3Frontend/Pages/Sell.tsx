@@ -33,15 +33,16 @@ function Sell() {
     if (!loader) return;
     try {
       const jsonHash = await JsonToPinata(JSON.stringify(input));
+      console.log(jsonHash);
       await sellToAuction(jsonHash, amount);
       setHash(() => jsonHash);
       setLoader(() => false);
       setPopUp(() => true);
       toast.success("Successfully added the property");
-      console.log("events=", event);
-      value?.fetchSigner();
+      value?.fetchSignerAndDate();
       event?.currentTarget?.reset();
     } catch (err) {
+      console.log(err);
       toast.error("Something Went Wrong");
       setLoader(() => false);
     }

@@ -1,10 +1,13 @@
 import { ethers } from "ethers";
 import erc721TokenAbi from "../../RealStateWeb3/artifacts/contracts/ERC721Token.sol/ERC721Token.json";
 import erc721TokenHandlerAbi from "../../RealStateWeb3/artifacts/contracts/ERC721Handler.sol/ERC721Handler.json";
+import { CustomWindow } from "../Children/SignerChildren";
 
-export const provider = new ethers.providers.Web3Provider(window.ethereum);
-const ContractAddress1 = "0xEAB5A4B41E55143F6da327D62F5358C13578a45d";
-const ContractAddress2 = "0x7e56526a87fA552D0f5fbaE6F0afB6FDFeb1039a";
+export const provider = new ethers.providers.Web3Provider(
+  (window as CustomWindow).ethereum
+);
+const ContractAddress1 = "0x3Dae0622dC2F26f74859c80063727CE6Dd2AE9c6";
+const ContractAddress2 = "0x37224014b342a64c8A2Ef3216FbCc9B3842e3Aa6";
 
 export const ERC721Tokeninstance = new ethers.Contract(
   ContractAddress1,

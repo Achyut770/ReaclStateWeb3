@@ -40,6 +40,7 @@ function SignerChildren({ children }: SignerChildrenProps) {
       await getDatas(address);
       setLoading(() => false);
     } catch (error) {
+      console.log(error);
       setLoading(() => false);
     }
   };
