@@ -22,6 +22,7 @@ const wholeData = async (i: number, array: data[]) => {
 
 export const getData = async (address: string) => {
   const length = await ERC721Tokeninstance.totalSupply();
+  console.log(Number(length));
 
   let array: data[] = [];
   let indvArray: data[] = [];
